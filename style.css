@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+				background-color: lightblue;
+				
+				width:100%;
+				height:100px;
+				text-align: center;
+			}
+			#sidebar1{
+				float:left;
+				width:25%;
+				background-color: red;
+			}
+			#main{
+				float:left;
+				width:50%;
+				background-color: lightgray;
+			}
+			#sidebar2{
+				float:left;
+				width:25%;
+				background-color: red;
+			}
+			#footer{
+				clear:both;
+				height: 50px;
+				width: 100%;
+				text-align: center;
+				background-color: lightblue;
+			}
+			#sidebar-1, #main, #sidebar-2{
+				min-height: 600px				
+			}
+#header {
+	background-image: url(download.jpg);
+}
+#sidebar2 {
+	background-image: url(p.jpg);
+}
+#main {
+	background-image: url(purple-pink-halftone-background-vector_53876-67278.jpg);
+}
+#sidebar1 {
+	background-image: url(p.jpg);
+}
+#footer {
+	background-image: url(bg-footer-mitihoon.jpg);
+}
